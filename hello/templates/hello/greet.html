@@ -2,10 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello</title>
+    <title>Fancy Hello</title>
 </head>
 <body>
-    Hello, {{ name }}! {% if show_time %} It's {{ time }} {% endif %}
+    <h2 style="color: green; font-size: 28px; text-align: center;">Greetings, visitor!</h2>
+    
+    <p style="font-size: 18px; text-align: center;">
+        Hello, {{ name }}!
+        {% if show_time %}
+            It's {{ time }} now.
+        {% endif %}
+    </p>
 </body>
 </html>
+
 
